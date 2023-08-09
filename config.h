@@ -13,7 +13,9 @@ static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
 static const char col_cyan[]        = "#553388";
-#include "/home/b0ss/.cache/wal/colors-wal-dwm.h"
+
+/*This line allows pywal to adjust to background. Change "YOURUSERNAME" to the appropriate name*/
+#include "/home/YOURUSERNAME/.cache/wal/colors-wal-dwm.h"
 
 /* tagging */
 static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
